@@ -7,8 +7,8 @@ window.addEventListener('load', () => {
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Yes',
-        cancelButtonText: 'No',
+        confirmButtonText: 'Claro',
+        cancelButtonText: 'Nop :-(',
         
     }).then((result) => {
         if (result.isConfirmed) {
@@ -16,6 +16,7 @@ window.addEventListener('load', () => {
             animationTimeline();
         } else {
             document.querySelector('.song').play();
+            text: 'Igualmente te comes la canción!'
             animationTimeline();
         }
     });

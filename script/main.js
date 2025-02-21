@@ -83,11 +83,12 @@ const animationTimeline = () => {
             y: 10
         },
     "-=1")
+
     .from(".three", 0.7, {
         opacity: 0,
         y: 10
     })
-    .to(".three",
+    .from(".three",
         0.7,
         {
             opacity: 0,
@@ -106,7 +107,7 @@ const animationTimeline = () => {
         },
         0.2
     )
-    
+
     .from(".four", 0.7, {
         scale: 0.2,
         opacity: 0,

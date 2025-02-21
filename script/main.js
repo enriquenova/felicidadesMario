@@ -15,13 +15,13 @@ window.addEventListener('load', () => {
             document.querySelector('.song').play();
             animationTimeline();
         } else {
+            document.querySelector('.song').play();
             swal.fire({
-                title: "Deleted!",
-                text: "Your file has been deleted.",
-                icon: "success"
+                title: "Upps",
+                text: "Pues aquí la tienes igualmente!",
+                icon: "Vamos!"
               });
-
-              document.querySelector('.song').play();
+            animationTimeline();
         }
     });
 });

@@ -19,7 +19,8 @@ window.addEventListener('load', () => {
             swal.fire({
                 title: "Upps",
                 text: "Pues aquí la tienes igualmente!",
-                icon: "Vamos!"
+                icon: "Vamos!",
+                confirmButtonText: 'Vamoss!',
               });
             animationTimeline();
         }

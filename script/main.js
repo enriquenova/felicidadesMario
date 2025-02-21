@@ -18,7 +18,11 @@ window.addEventListener('load', () => {
             document.querySelector('.song').play();
             text: 'Igualmente te comes la canción!'
             animationTimeline();
-            sleep(1000);
+            swalWithBootstrapButtons.fire({
+                title: "Cancelled",
+                text: "Your imaginary file is safe :)",
+                icon: "error"
+            });
         }
     });
 });

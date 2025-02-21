@@ -37,9 +37,9 @@ const animationTimeline = () => {
         .split("")
         .join("</span><span>")}</span>`;
 
-    //hbd.innerHTML = `<span>${hbd.innerHTML
-    //   .split("")
-    //   .join("</span><span>")}</span>`;
+    hbd.innerHTML = `<span>${hbd.innerHTML
+       .split("")
+       .join("</span><span>")}</span>`;
 
     const ideaTextTrans = {
         opacity: 0,

@@ -200,7 +200,7 @@ const animationTimeline = () => {
         rotation: -180,
         opacity: 0,
     })
-    /*
+    
     .staggerFrom(
         ".wish-hbd span",
         0.7, {
@@ -227,7 +227,7 @@ const animationTimeline = () => {
         0.1,
         "party"
     )
-        */
+        
     .from(
         ".wish h5",
         0.5, {

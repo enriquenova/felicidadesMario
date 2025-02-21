@@ -151,38 +151,7 @@ const animationTimeline = () => {
         },
         "+=2"
     )
-    .staggerFrom(
-        ".idea-6 span",
-        0.8, {
-            scale: 3,
-            opacity: 0,
-            rotation: 15,
-            ease: Expo.easeOut,
-        },
-        0.2
-    )
-    .staggerTo(
-        ".idea-6 span",
-        0.8, {
-            scale: 3,
-            opacity: 0,
-            rotation: -15,
-            ease: Expo.easeOut,
-        },
-        0.2,
-        "+=1.5"
-    )
-    .staggerFromTo(
-        ".baloons img",
-        2.5, {
-            opacity: 0.9,
-            y: 1400,
-        }, {
-            opacity: 1,
-            y: -1000,
-        },
-        0.2
-    )
+
     .from(
         ".profile-picture",
         0.5, {

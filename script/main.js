@@ -163,7 +163,7 @@ const animationTimeline = () => {
         },
         "-=2"
     )
-    .from(".hat", {
+    .from(".hat", 1, {
         scale: 1
         x: -100,
         y: 350,

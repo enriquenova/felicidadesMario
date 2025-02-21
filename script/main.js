@@ -8,6 +8,7 @@ window.addEventListener('load', () => {
         cancelButtonColor: '#d33',
         confirmButtonText: 'Yes',
         cancelButtonText: 'No',
+        document.querySelector('.song').play();
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
@@ -17,7 +18,6 @@ window.addEventListener('load', () => {
         }
     });
 });
-document.querySelector('.song').play();
 
 // animation timeline
 const animationTimeline = () => {

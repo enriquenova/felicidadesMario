@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
         }
     });
 });
-document.querySelector('.song').play();
+
 
 // animation timeline
 const animationTimeline = () => {

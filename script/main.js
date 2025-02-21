@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
         } else {
             document.querySelector('.song').play();
             text: 'Igualmente te comes la canción!'
-            animationTimeline();
+            
             swalWithBootstrapButtons.fire({
                 title: "Cancelled",
                 text: "Your imaginary file is safe :)",

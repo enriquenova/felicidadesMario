@@ -15,13 +15,13 @@ window.addEventListener('load', () => {
             document.querySelector('.song').play();
             animationTimeline();
         } else {
-            document.querySelector('.song').play();
-            text: 'Igualmente te comes la canción!'
             swalWithBootstrapButtons.fire({
                 title: "Deleted!",
                 text: "Your file has been deleted.",
                 icon: "success"
               });
+
+              document.querySelector('.song').play();
         }
     });
 });

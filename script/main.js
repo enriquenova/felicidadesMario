@@ -1,8 +1,8 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
-    document.querySelector('.song').play();
+    
     Swal.fire({
-        title: 'Do you want to play music in the background?',
+        title: 'Quieres música de fondo? Seguro que te gusta!',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
@@ -15,6 +15,7 @@ window.addEventListener('load', () => {
             document.querySelector('.song').play();
             animationTimeline();
         } else {
+            document.querySelector('.song').play();
             animationTimeline();
         }
     });

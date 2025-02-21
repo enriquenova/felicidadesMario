@@ -15,7 +15,7 @@ window.addEventListener('load', () => {
             document.querySelector('.song').play();
             animationTimeline();
         } else {
-            swalWithBootstrapButtons.fire({
+            swal.fire({
                 title: "Deleted!",
                 text: "Your file has been deleted.",
                 icon: "success"
